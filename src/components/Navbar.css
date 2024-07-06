@@ -1,0 +1,68 @@
+.doggy-nav {
+    background: linear-gradient(to top, #FF7E2E, #2E90FF);
+    display: inline-block;
+    margin-right: 5%;
+    width: 35%;
+    height: 90vh;
+    border-radius: 0 0 30px 0;
+    box-shadow: 8px 10px #E3E8ED;
+    
+  }
+  
+  .doggy-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6%;
+    margin-top: 5%;
+  }
+/*
+
+  .doggy-images {
+    display: flex;
+    width: 60%;
+    margin-top: 40%;
+  }
+
+  .dog1 {
+    width: 60%;
+    margin-top: 60%;
+    margin-right: 80%;
+  }
+
+  .dog2 {
+    width: 50%;
+    height: 50vh;
+    margin-right: 20%;
+    margin-top: 72.3%;
+  }
+
+  .dog3 {
+    width: 50%;
+    height: 40vh;
+    
+  }
+  */
+  .doggy-nav-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 2px;
+  }
+
+  .doggy-nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .doggy-nav-link:hover {
+    color: #ddd;
+  }
+  @media (max-width: 1080px) {
+    .doggy-nav {
+        height: 60vh;
+    }
+}
+  
