@@ -20,7 +20,7 @@ const Home = () => {
       <div className='left-side'>
         <h1 className='logo'>Doggy Floppy</h1>
         <h1 className='title' style={{textAlign: "left"}}>Find your perfect friend <br/> and <br/>live your perfect life together</h1>
-        <button className='btn-principal'><Link to={"/gallery"} style={{textDecoration: "none", color: 'white', fontFamily: 'Fira Sans', fontWeight: '500', fontSize: '2px'}}>Let's start</Link></button>
+        <button className='btn-principal'><Link to={"/collection"} style={{textDecoration: "none", color: 'white', fontFamily: 'Fira Sans', fontWeight: '500', fontSize: '22px'}}>Let's start</Link></button>
       </div>
       <Navbar/>
     </div>

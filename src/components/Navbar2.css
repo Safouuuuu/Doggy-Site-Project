@@ -1,0 +1,56 @@
+.doggy-nav2 {
+    background-color: #2E90FF;
+    padding: 0.5%;
+  }
+  
+  .doggy-nav-list2 {
+    list-style: none;
+    display: flex;
+    gap: 12%;
+    margin-right: 2%;
+    justify-content: end;
+    align-items: center;
+  }
+/*
+
+  .doggy-images {
+    display: flex;
+    width: 60%;
+    margin-top: 40%;
+  }
+
+  .dog1 {
+    width: 60%;
+    margin-top: 60%;
+    margin-right: 80%;
+  }
+
+  .dog2 {
+    width: 50%;
+    height: 50vh;
+    margin-right: 20%;
+    margin-top: 72.3%;
+  }
+
+  .dog3 {
+    width: 50%;
+    height: 40vh;
+    
+  }
+  */
+  .doggy-nav-btn2 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 2px;
+  }
+
+  .doggy-nav-link2 {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .doggy-nav-link2:hover {
+    color: #ddd;
+  }
+  
