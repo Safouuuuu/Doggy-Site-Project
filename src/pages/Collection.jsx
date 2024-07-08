@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Navbar2 from '../components/Navbar2';
+import "./Collection.css";
 
 const Collection = () => {
   const [dogImages, setDogImages] = useState([]);
@@ -15,10 +16,10 @@ const Collection = () => {
         <Navbar2/>
       <h1>Wanna see more about our precious dogs ?</h1>
       <h5>This gallery shows some of the most friendly, awsome and incredible companions</h5>
-      <div className="row">
+      <div className="doggy-images">
         {dogImages.map((image, index) => (
-          <div className="col-md-3 mb-3" key={index}>
-            <img src={image} alt="Dog" className="img-fluid" />
+          <div className="doggy-slide" key={index}>
+            <img src={image} alt={`Dog ${index}`} className="doggy-image" />
           </div>
         ))}
       </div>
