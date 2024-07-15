@@ -13,13 +13,11 @@ const Navbar = () => {
                 <li className="doggy-nav-btn"><Link className="doggy-nav-link" to="/collection">Our dogs</Link></li>
                 <li className="doggy-nav-btn"><Link className="doggy-nav-link" to="/search">Breed</Link></li>
             </ul>
-            {/*
             <div className="doggy-images">   
             <img src={chienBerger} alt="A dog" className="dog1"/>
             <img src={chienFenetre} alt="A dog on a balcony" className="dog2"/>
             <img src={chienMaitre} alt="A dog with it's master" className="dog3"/>
             </div>
-            */}
         </nav>
     )
 }

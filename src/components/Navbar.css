@@ -6,7 +6,6 @@
     height: 90vh;
     border-radius: 0 0 30px 0;
     box-shadow: 8px 10px #E3E8ED;
-    
   }
   
   .doggy-nav-list {
@@ -18,33 +17,38 @@
     margin-right: 6%;
     margin-top: 5%;
   }
-/*
+
 
   .doggy-images {
     display: flex;
-    width: 60%;
     margin-top: 40%;
+    justify-content: center;
   }
 
   .dog1 {
-    width: 60%;
-    margin-top: 60%;
-    margin-right: 80%;
+    position: absolute;
+    width: 21%;
+    margin-right: 25%;
+    margin-top: 7%;
+    overflow: hidden;
   }
 
   .dog2 {
-    width: 50%;
+    position: absolute;
+    width: 20%;
     height: 50vh;
-    margin-right: 20%;
-    margin-top: 72.3%;
+    margin-top: 12.70%;
+    z-index: 1;
   }
 
   .dog3 {
-    width: 50%;
-    height: 40vh;
-    
+    position: absolute;
+    right: 0%;
+    width: 25%;
+    height: 70vh;
+    margin-top: -7.2%;
   }
-  */
+
   .doggy-nav-btn {
     color: #fff;
     text-decoration: none;
