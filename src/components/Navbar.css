@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .doggy-nav {
     background: linear-gradient(to top, #FF7E2E, #2E90FF);
     display: inline-block;
@@ -28,8 +29,8 @@
   .dog1 {
     position: absolute;
     width: 21%;
-    margin-right: 25%;
-    margin-top: 7%;
+    right: 25%;
+    margin-top: 65%;
     overflow: hidden;
   }
 
@@ -37,7 +38,8 @@
     position: absolute;
     width: 20%;
     height: 50vh;
-    margin-top: 12.70%;
+    margin-left: 7%;
+    margin-top: 76%;
     z-index: 1;
   }
 
@@ -46,7 +48,7 @@
     right: 0%;
     width: 25%;
     height: 70vh;
-    margin-top: -7.2%;
+    margin-top: 47%;
   }
 
   .doggy-nav-btn {
@@ -59,10 +61,12 @@
   .doggy-nav-link {
     text-decoration: none;
     color: black;
+    font-weight: 500;
   }
   
   .doggy-nav-link:hover {
     color: #ddd;
+    transition: 0.3s;
   }
   @media (max-width: 1080px) {
     .doggy-nav {

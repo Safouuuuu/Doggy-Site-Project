@@ -5,6 +5,7 @@ const Search = () => {
     const [breed, setBreed] = useState('');
     const [breedImages, setBreedImages] = useState([]);
     const [error, setError] = useState('');
+    const [lastBreed, setLastBreed] = useState('');
 
     const handleInputChange = (e) => {
         setBreed(e.target.value);
@@ -16,6 +17,10 @@ const Search = () => {
             setError('Please enter a breed');
             return;
         }
+        if (breed == lastBreed){
+            return;
+        }
+        setLastBreed(breed);
 
         // We clear the variables in order to avoid showing them in screen after the next research
         setError('');

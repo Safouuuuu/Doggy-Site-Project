@@ -48,6 +48,7 @@
   .doggy-nav-link2 {
     text-decoration: none;
     color: black;
+    font-weight: 500;
   }
   
   .doggy-nav-link2:hover {

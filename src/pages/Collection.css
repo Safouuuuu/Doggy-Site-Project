@@ -1,6 +1,13 @@
+.doggy-images {
+   display: flex;
+   flex-direction: column;
+   margin-top: 0%;
+   gap: 70px;
+}
 .doggy-image {
-    width: 40%;
+    width: 50%;
     height: 50vh;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    filter: drop-shadow(5px 5px 25px #FF7E2E);
 }
