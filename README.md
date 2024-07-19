@@ -1,3 +1,27 @@
+# Site Overview
+
+Here is how the site is done :
+![image](https://github.com/user-attachments/assets/509124c0-ddb6-4acb-8419-cd1266023b80)
+There is a carrousel displaying some random dog images fetched from the dog API :
+![image](https://github.com/user-attachments/assets/d61263cb-fef9-4349-bf3c-54814f7aa571)
+Now this next page is displaying another list of random dogs also from the API :
+![image](https://github.com/user-attachments/assets/babce9d3-6647-44b2-aa04-b6637f08ba35)
+![image](https://github.com/user-attachments/assets/42a7d9de-9f25-45a1-bd15-e72be78096da)
+And finally the last page where we can search for a specific breed of dogs by typing the breed name :
+![image](https://github.com/user-attachments/assets/d13b0bb7-5eb6-45f9-85bc-d69ccee386b0)
+
+I made a figma prototype of the site before coding it, here is how it looks :
+![HomePage](https://github.com/user-attachments/assets/99f3b678-52ba-46b0-85b3-7a5312d6c0ed)
+![GalleryPage](https://github.com/user-attachments/assets/d477ace7-9802-4dc7-8ece-c59e7983b91f)
+
+# I hope you'll like it, and I'm excited to finally join your team haha :)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
